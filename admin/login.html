@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | Admin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    <main>
-        <section>
-            <img src="img/login.png" alt="Purple rice simulation for the log in">
-        </section>
-        <section>
-            <h1>Log in</h1>
-            <form>
-                <input type="email" name="email" id="name" placeholder="Email o Usuario">
-                <input type="password" name="password" id="password" placeholder="Contraseña">
-                <input type="button" value="Log in">
-            </form>
-        </section>
-    </main>
+    <div id="body">
+        <main>
+            <img src="img/login.png" alt="Purple rice simulation for the log in" id="login-img">
+            <section>
+                <form>
+                    <h1>Log in</h1>
+                    <input type="email" name="email" id="name" placeholder="Email o Usuario" class="input-get-info">
+                    <input type="password" name="password" id="password" placeholder="Contraseña" class="input-get-info">
+                    <input type="button" value="Log in" id="button">
+                </form>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
