@@ -21,7 +21,7 @@ ul li {
     list-style: none;
 }
 
-.header-nav, .nav-element, .main-stadistics, #bars, #line{
+.header-nav, .nav-element, .main-stadistics, #bars, #line, .events-container, .event, .event-img, #add-event-container{
     background-color: #090715;
     border: 2px solid #CDC2F5;
     border-radius: 50px;
@@ -92,7 +92,7 @@ header ul li {
     width: 100%;
 }
 
-.nav-element {
+.nav-element, #add-event-container {
     display: flex;
     justify-content: center;
     align-items: center;

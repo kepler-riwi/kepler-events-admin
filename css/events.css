@@ -1,0 +1,60 @@
+aside {
+    display: flex;
+    align-items: center;
+}
+
+#events-groups-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.events-container {
+    display: flex;
+    justify-content: space-around;
+    height: 19hv;
+    width: 63vw;
+    padding: 2vh 1vw;
+}
+
+.event {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 13vh;
+    width: 26vw;
+    padding: 10px;
+}
+
+.event-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.img {
+    height: 24px;
+    width: 24px;
+}
+
+.elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.elements div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#add-event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+}
