@@ -1,9 +1,11 @@
+/*General Setting*/
 * {
     padding: 0;
     margin: 0;
     font-family: "Inter", sans-serif;
 }
 
+/*Managing the background and putting the main center*/
 #body {
     display: flex;
     justify-content: center;
@@ -14,6 +16,7 @@
     color: #CDC2F5;
 }
 
+/*Difining the size of the main and centering the elements*/
 main {
     display: flex;
     align-items: center;
@@ -23,6 +26,7 @@ main {
     border-radius: 50px;
 }
 
+/*Add the login img*/
 #login-img {
     height: 98.9%;
     width: 48%;
@@ -30,12 +34,14 @@ main {
     border-bottom-left-radius: 50px;
 }
 
+/*Add style to the login section*/
 section {
     height: 100%;
     width: 50%;
     padding: 100px;
 }
 
+/*Displaying the inputs in rows*/
 section, form {
     display: flex;
     flex-direction: column;
@@ -43,6 +49,7 @@ section, form {
     align-items: center;
 }
 
+/*General log in settings*/
 h1 {
     font-size: 40px;
 }
@@ -52,7 +59,7 @@ form {
     width: 100%;
 }
 
-
+/*Add style to inputs and button*/
 input, #button {
     height: 12%;
     width: 100%;
@@ -84,6 +91,7 @@ input, #button {
     color: #141122;
 }
 
+/*Add style to screen less than 750px*/
 @media (max-width: 750px) {
     section {
         padding: 40px;
