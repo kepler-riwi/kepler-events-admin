@@ -1,0 +1,59 @@
+/*main*/
+main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bars, #line {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 32vh;
+    width: 66vw;
+}
+
+#analytics-bars, #analytics-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+#analytics-bars {
+    transform: scaleY(-1);
+}
+
+.analytics {
+    background-color: #CDC2F5;
+    width: 5vw;
+}
+
+#first, #fifth {
+    height: 15vh;
+}
+
+#second {
+    height: 8vh;
+}
+
+#third, #sixth {
+    height: 20vh;
+}
+
+#fourth {
+    height: 5vh;
+}
+
+#analytics-text {
+    padding: 2vh 0;
+}
+
+#line {
+    justify-content: center;
+    align-items: center;
+    margin-top: 5.59vh;
+}
+
+#line-analytics {
+    border-left: 2px solid #CDC2F5;
+    border-bottom: 2px solid #CDC2F5;
+}
