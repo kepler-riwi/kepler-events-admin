@@ -5,10 +5,14 @@
     font-family: "Inter", sans-serif;
 }
 
-body {
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100vw;
-    margin: 59px;
+    padding: 40px;
     background-color: #141122;
     color: #CDC2F5;
     font-size: 24px;
@@ -16,4 +20,55 @@ body {
 
 ul li {
     list-style: none;
+}
+
+.header-nav, .nav-element, .main-stadistics {
+    background-color: #090715;
+    border: 2px solid #CDC2F5;
+}
+
+.nav-container {
+    padding: 20px;
+    border: 2px solid #CDC2F5;
+    border-radius: 50px;
+}
+
+.nav-icon-img {
+    height: 50px;
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #CDC2F5;
+}
+
+.selected a, .selected {
+    background-color: #CDC2F5;
+    color: #090715;
+    border: 2px solid #090715;
+}
+
+
+/*Header nav*/
+header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12.72vh;
+    width: 35.33vw;
+}
+
+header ul li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7.64vh;
+    width: 11.90vw;
+    border-radius: 100px;
+}
+
+/*main*/
+#main {
+    display: flex;
 }
