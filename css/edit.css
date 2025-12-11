@@ -1,0 +1,22 @@
+.header-nav {
+    width: 9vw;
+}
+
+main {
+    height: 70vh;
+    width: 80vw;
+}
+
+.event-img {
+    height: auto;
+    width: 100%;
+    margin: 0 20px 50px 0;
+    border-radius: 20px;
+}
+
+#title-category {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
